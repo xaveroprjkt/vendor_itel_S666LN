@@ -33,9 +33,11 @@
     <EccEntry Ecc="115" Category="0" Condition="1" Plmn="510 28"/>
     <!-- TDD:add ecc list for ADSHBSE-17919 by meijuan.ma 2023.4.06 end -->
     <EccEntry Ecc="129" Category="0" Condition="3" Plmn="510 01"/>
-    <EccEntry Ecc="119" Category="0" Condition="1" Plmn="510 01"/>
     <EccEntry Ecc="113" Category="0" Condition="1" Plmn="510 01"/>
     <EccEntry Ecc="118" Category="0" Condition="1" Plmn="510 01"/>
+    <!-- SR:modify for BG7XE674S-3731 by zhoujiru for 20241211 start -->
+    <EccEntry Ecc="119" Category="0" Condition="2" Plmn="510 FF" />
+    <!-- SR:modify for BG7XE674S-3731 by zhoujiru for 20241211 end -->
     <EccEntry Ecc="110" Category="0" Condition="1" Plmn="510 21"/>
     <EccEntry Ecc="113" Category="0" Condition="1" Plmn="510 21"/>
     <EccEntry Ecc="118" Category="0" Condition="1" Plmn="510 21"/>
@@ -275,9 +277,14 @@
     <EccEntry Ecc="102" Category="0" Condition="0" Plmn="436 FFF" />
     <EccEntry Ecc="103" Category="0" Condition="0" Plmn="436 FFF" />
     <!-- SR:add for BG7XE674S-3158 by zhoujiru at 20240221 start -->
-    <EccEntry Ecc="101" Category="0" Condition="1" Plmn="401 FFF" />
-    <EccEntry Ecc="102" Category="0" Condition="1" Plmn="401 FFF" />
-    <EccEntry Ecc="103" Category="0" Condition="1" Plmn="401 FFF" />
-    <EccEntry Ecc="104" Category="0" Condition="1" Plmn="401 FFF" />
+    <!-- SR:modify for BG7XE674S-3158 by chao.xiang5 20241216 start -->
+    <EccEntry Ecc="101" Category="0" Condition="3" Plmn="401 77" />
+    <EccEntry Ecc="102" Category="0" Condition="3" Plmn="401 77" />
+    <EccEntry Ecc="103" Category="0" Condition="3" Plmn="401 77" />
+    <EccEntry Ecc="104" Category="0" Condition="3" Plmn="401 77" />
+    <!-- SR:modify for BG7XE674S-3158 by chao.xiang5 20241216 end -->
     <!-- SR:add for BG7XE674S-3158 by zhoujiru at 20240221 end -->
+	<!-- SR:modify for S666LNMA6-3018 by chao.xiang5 20250106 start -->
+	<EccEntry Ecc="911" Category="0" Condition="10" Plmn="452 FFF" />
+	<!-- SR:modify for S666LNMA6-3018 by chao.xiang5 20250106 end -->
 </EccTable>

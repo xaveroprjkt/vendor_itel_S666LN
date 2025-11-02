@@ -71,7 +71,6 @@ PRODUCT_COPY_FILES += \
     vendor/itel/S666LN/proprietary/vendor/bin/fuelgauged_nvram:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged_nvram \
     vendor/itel/S666LN/proprietary/vendor/bin/gbe:$(TARGET_COPY_OUT_VENDOR)/bin/gbe \
     vendor/itel/S666LN/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
-    vendor/itel/S666LN/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/itel/S666LN/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service-mediatek \
     vendor/itel/S666LN/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.widevine \
     vendor/itel/S666LN/proprietary/vendor/bin/hw/android.hardware.gnss-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss-service.mediatek \
@@ -824,7 +823,6 @@ PRODUCT_COPY_FILES += \
     vendor/itel/S666LN/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml \
     vendor/itel/S666LN/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml \
     vendor/itel/S666LN/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml \
-    vendor/itel/S666LN/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/itel/S666LN/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
     vendor/itel/S666LN/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
     vendor/itel/S666LN/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
@@ -1064,7 +1062,6 @@ PRODUCT_COPY_FILES += \
     vendor/itel/S666LN/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
     vendor/itel/S666LN/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
     vendor/itel/S666LN/proprietary/vendor/etc/virtual-spn-conf-by-imsi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-imsi.xml \
-    vendor/itel/S666LN/proprietary/vendor/etc/wfd_source_capability.csv:$(TARGET_COPY_OUT_VENDOR)/etc/wfd_source_capability.csv \
     vendor/itel/S666LN/proprietary/vendor/firmware/BT_FW.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/BT_FW.cfg \
     vendor/itel/S666LN/proprietary/vendor/firmware/Conf_MultipleTest.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/Conf_MultipleTest.ini \
     vendor/itel/S666LN/proprietary/vendor/firmware/WIFI_RAM_CODE_soc2_2_1d_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc2_2_1d_1.bin \
@@ -1172,9 +1169,9 @@ PRODUCT_COPY_FILES += \
     vendor/itel/S666LN/proprietary/vendor/firmware/soc_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc_fm_v1_patch.bin \
     vendor/itel/S666LN/proprietary/vendor/firmware/td4160_lce_fw.img:$(TARGET_COPY_OUT_VENDOR)/firmware/td4160_lce_fw.img \
     vendor/itel/S666LN/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
-    vendor/itel/S666LN/proprietary/vendor/lib/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/AVCSecureVdecCA.so \
-    vendor/itel/S666LN/proprietary/vendor/lib/HEVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/HEVCSecureVdecCA.so \
-    vendor/itel/S666LN/proprietary/vendor/lib/VP9SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/VP9SecureVdecCA.so \
+    vendor/itel/S666LN/proprietary/vendor/lib/AVCSecureVdecCA_510.so:$(TARGET_COPY_OUT_VENDOR)/lib/AVCSecureVdecCA_510.so \
+    vendor/itel/S666LN/proprietary/vendor/lib/HEVCSecureVdecCA_510.so:$(TARGET_COPY_OUT_VENDOR)/lib/HEVCSecureVdecCA_510.so \
+    vendor/itel/S666LN/proprietary/vendor/lib/VP9SecureVdecCA_510.so:$(TARGET_COPY_OUT_VENDOR)/lib/VP9SecureVdecCA_510.so \
     vendor/itel/S666LN/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
     vendor/itel/S666LN/proprietary/vendor/lib/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_meow.so \
     vendor/itel/S666LN/proprietary/vendor/lib/egl/libMEOW_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_data.so \
@@ -1199,7 +1196,7 @@ PRODUCT_COPY_FILES += \
     vendor/itel/S666LN/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so \
     vendor/itel/S666LN/proprietary/vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
     vendor/itel/S666LN/proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
-    vendor/itel/S666LN/proprietary/vendor/lib/libAVCSecureVencCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAVCSecureVencCA.so \
+    vendor/itel/S666LN/proprietary/vendor/lib/libAVCSecureVencCA_510.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAVCSecureVencCA_510.so \
     vendor/itel/S666LN/proprietary/vendor/lib/libCamera_hi5022qmipiraw_Boken_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi5022qmipiraw_Boken_Capture.so \
     vendor/itel/S666LN/proprietary/vendor/lib/libCamera_hi5022qmipiraw_Capture_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi5022qmipiraw_Capture_Zoom1.so \
     vendor/itel/S666LN/proprietary/vendor/lib/libCamera_hi5022qmipiraw_Capture_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi5022qmipiraw_Capture_Zoom2.so \
@@ -1345,7 +1342,6 @@ PRODUCT_COPY_FILES += \
     vendor/itel/S666LN/proprietary/vendor/lib/libaal_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_mtk.so \
     vendor/itel/S666LN/proprietary/vendor/lib/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec_mtk.so \
     vendor/itel/S666LN/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
-    vendor/itel/S666LN/proprietary/vendor/lib/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils.so \
     vendor/itel/S666LN/proprietary/vendor/lib/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_param_parser-vnd.so \
     vendor/itel/S666LN/proprietary/vendor/lib/libaudioclient_aidl_conversion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioclient_aidl_conversion.so \
     vendor/itel/S666LN/proprietary/vendor/lib/libaudiocompensationfilter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilter_vendor.so \
@@ -1716,9 +1712,9 @@ PRODUCT_COPY_FILES += \
     vendor/itel/S666LN/proprietary/vendor/lib64/APUWareApusysServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareApusysServer.so \
     vendor/itel/S666LN/proprietary/vendor/lib64/APUWareHmpServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareHmpServer.so \
     vendor/itel/S666LN/proprietary/vendor/lib64/APUWareUtilsServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareUtilsServer.so \
-    vendor/itel/S666LN/proprietary/vendor/lib64/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AVCSecureVdecCA.so \
-    vendor/itel/S666LN/proprietary/vendor/lib64/HEVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/HEVCSecureVdecCA.so \
-    vendor/itel/S666LN/proprietary/vendor/lib64/VP9SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/VP9SecureVdecCA.so \
+    vendor/itel/S666LN/proprietary/vendor/lib64/AVCSecureVdecCA_510.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AVCSecureVdecCA_510.so \
+    vendor/itel/S666LN/proprietary/vendor/lib64/HEVCSecureVdecCA_510.so:$(TARGET_COPY_OUT_VENDOR)/lib64/HEVCSecureVdecCA_510.so \
+    vendor/itel/S666LN/proprietary/vendor/lib64/VP9SecureVdecCA_510.so:$(TARGET_COPY_OUT_VENDOR)/lib64/VP9SecureVdecCA_510.so \
     vendor/itel/S666LN/proprietary/vendor/lib64/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_meow.so \
     vendor/itel/S666LN/proprietary/vendor/lib64/egl/libMEOW_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_data.so \
     vendor/itel/S666LN/proprietary/vendor/lib64/egl/libMEOW_gift.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_gift.so \
@@ -1762,7 +1758,7 @@ PRODUCT_COPY_FILES += \
     vendor/itel/S666LN/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
     vendor/itel/S666LN/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
     vendor/itel/S666LN/proprietary/vendor/lib64/lib3a.ae.pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.pipe.so \
-    vendor/itel/S666LN/proprietary/vendor/lib64/libAVCSecureVencCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAVCSecureVencCA.so \
+    vendor/itel/S666LN/proprietary/vendor/lib64/libAVCSecureVencCA_510.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAVCSecureVencCA_510.so \
     vendor/itel/S666LN/proprietary/vendor/lib64/libCamera_hi5022qmipiraw_Boken_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_hi5022qmipiraw_Boken_Capture.so \
     vendor/itel/S666LN/proprietary/vendor/lib64/libCamera_hi5022qmipiraw_Capture_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_hi5022qmipiraw_Capture_Zoom1.so \
     vendor/itel/S666LN/proprietary/vendor/lib64/libCamera_hi5022qmipiraw_Capture_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_hi5022qmipiraw_Capture_Zoom2.so \
@@ -1909,7 +1905,6 @@ PRODUCT_COPY_FILES += \
     vendor/itel/S666LN/proprietary/vendor/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
     vendor/itel/S666LN/proprietary/vendor/lib64/libaibld.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaibld.so \
     vendor/itel/S666LN/proprietary/vendor/lib64/libaipe_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaipe_bokeh.so \
-    vendor/itel/S666LN/proprietary/vendor/lib64/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsautils.so \
     vendor/itel/S666LN/proprietary/vendor/lib64/libanc_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libanc_hdr.so \
     vendor/itel/S666LN/proprietary/vendor/lib64/libanc_hdr_adapter_hi5022q_17201859_back_g97.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libanc_hdr_adapter_hi5022q_17201859_back_g97.so \
     vendor/itel/S666LN/proprietary/vendor/lib64/libanc_hdr_adapter_s5kjn1_17201858_back_g97.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libanc_hdr_adapter_s5kjn1_17201858_back_g97.so \
@@ -2634,22 +2629,21 @@ PRODUCT_PACKAGES += \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common \
-    android.hardware.biometrics.fingerprint@2.1-service.xml \
-    android.hardware.neuralnetworks-shim-service-mtk.xml \
-    android.hardware.security.keymint-service.trustonic.xml \
-    android.hardware.security.secureclock-service.trustonic.xml \
-    android.hardware.security.sharedsecret-service.trustonic.xml \
-    gnss-mtk.xml \
-    gnss@2.1-service.xml \
-    manifest_android.hardware.drm@1.4-service.widevine.xml \
-    manifest_apuware_apusys.xml \
-    manifest_apuware_hmp.xml \
-    manifest_apuware_utils.xml \
-    manifest_cameraprovider.xml \
-    manifest_chipone.xml \
-    manifest_hwcomposer.xml \
-    manifest_media_c2_V1_2_default.xml \
-    manifest_tneengine.xml \
-    vendor.mediatek.hardware.tranHwInfo@1.0.xml \
-    vendor.transsion.hardware.trancam.trancamserver@1.0.xml \
+    android.hardware.neuralnetworks-shim-service-mtk \
+    android.hardware.security.keymint-service.trustonic \
+    android.hardware.security.secureclock-service.trustonic \
+    android.hardware.security.sharedsecret-service.trustonic \
+    gnss-mtk \
+    gnss@2.1-service \
+    manifest_android.hardware.drm@1.4-service.widevine \
+    manifest_apuware_apusys \
+    manifest_apuware_hmp \
+    manifest_apuware_utils \
+    manifest_cameraprovider \
+    manifest_chipone \
+    manifest_hwcomposer \
+    manifest_media_c2_V1_2_default \
+    manifest_tneengine \
+    vendor.mediatek.hardware.tranHwInfo@1.0 \
+    vendor.transsion.hardware.trancam.trancamserver@1.0 \
     em_hidl

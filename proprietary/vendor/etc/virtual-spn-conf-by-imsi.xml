@@ -9,4 +9,5 @@
 <virtualSpnOverride imsipattern="4186641866xxx36xxxxx" name="Newroz4G"/>
 <virtualSpnOverride imsipattern="4188241882xxx40xxxxx" name="Tishknet"/>
 <virtualSpnOverride imsipattern="4240342403022" name="Virgin Mobile"/>
+<virtualSpnOverride imsipattern="505015050156" name="Konec"/>
 </virtualSpnOverridesByImsi>

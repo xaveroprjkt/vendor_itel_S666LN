@@ -157,7 +157,7 @@
       <Param name="digital_gain" value="-48,-42,-39,-36,-33,-30,-27,-24,-21,-18,-15,-12,-9,-6,-3,0"/>
     </ParamUnit>
     <ParamUnit param_id="2">
-      <Param name="digital_gain" value="-64,-63,-52,-48,-44,-40,-36,-33,-30,-27,-24,-21,-18,-15,-7,0"/>
+      <Param name="digital_gain" value="-64,-63,-57,-51,-47,-44,-41,-37,-34,-30,-27,-24,-21,-18,-10,0"/>
     </ParamUnit>
     <ParamUnit param_id="3">
       <Param name="digital_gain" value="-64,-50,-42,-38,-34,-30,-27,-24,-21,-18,-15,-12,-9,-6,-3,0"/>
@@ -166,7 +166,7 @@
       <Param name="digital_gain" value="-64,-42,-39,-36,-33,-30,-27,-24,-21,-18,-15,-13,-11,-9,-7,-5"/>
     </ParamUnit>
     <ParamUnit param_id="5">
-      <Param name="digital_gain" value="-64,-61,-40,-36,-32,-28,-24,-19,-15,-13,-12,-10,-9,-7,-4,0"/>
+      <Param name="digital_gain" value="-64,-56,-46,-39,-35,-32,-29,-27,-25,-23,-21,-18,-15,-10,-6,0"/>
     </ParamUnit>
   </ParamUnitPool>
 </AudioParam>
