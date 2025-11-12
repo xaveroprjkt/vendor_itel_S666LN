@@ -185,6 +185,15 @@ dex_import {
 }
 
 prebuilt_etc_xml {
+	name: "android.hardware.biometrics.fingerprint@2.1-service",
+	owner: "itel",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
 	name: "android.hardware.neuralnetworks-shim-service-mtk",
 	owner: "itel",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml",
