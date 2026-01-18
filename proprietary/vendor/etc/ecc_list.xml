@@ -287,4 +287,18 @@
 	<!-- SR:modify for S666LNMA6-3018 by chao.xiang5 20250106 start -->
 	<EccEntry Ecc="911" Category="0" Condition="10" Plmn="452 FFF" />
 	<!-- SR:modify for S666LNMA6-3018 by chao.xiang5 20250106 end -->
+    <!-- SR:modify for S666LNMA6-3134 by chao.xiang5 20250916 start -->
+    <EccEntry Ecc="101" Category="0" Condition="2" Plmn="434 FFF" />
+    <EccEntry Ecc="102" Category="0" Condition="2" Plmn="434 FFF" />
+    <EccEntry Ecc="103" Category="0" Condition="2" Plmn="434 FFF" />
+    <!-- SR:modify for S666LNMA6-3134 by chao.xiang5 20250916 end -->
+    <!-- SR:modify for NTRA by zhoujiru 20251028 start -->
+    <EccEntry Ecc="121" Category="0" Condition="10" Plmn="602 FFF" />
+    <EccEntry Ecc="122" Category="1" Condition="1" Plmn="602 FFF" />
+    <EccEntry Ecc="123" Category="2" Condition="1" Plmn="602 FFF" />
+    <EccEntry Ecc="128" Category="0" Condition="10" Plmn="602 FFF" />
+    <EccEntry Ecc="180" Category="4" Condition="1" Plmn="602 FFF" />
+    <EccEntry Ecc="126" Category="0" Condition="10" Plmn="602 FFF" />
+    <EccEntry Ecc="129" Category="0" Condition="10" Plmn="602 FFF" />
+    <!-- SR:modify for NTRA by zhoujiru 20251028 end -->
 </EccTable>
